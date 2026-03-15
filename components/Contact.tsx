@@ -18,7 +18,7 @@ export default function Contact() {
             <div className="social-links">
               <a href="#" className="social-link">LinkedIn</a>
               <a href="https://github.com/jotelfootball-tech" className="social-link" target='_blank'>GitHub</a>
-              <a href="https://x.com/home" className="social-link" target='_blank'>Twitter</a>
+              <a href="https://x.com/Jotel001" className="social-link" target='_blank'>Twitter</a>
               <a href="#" className="social-link">Dribbble</a>
             </div>
           </div>
