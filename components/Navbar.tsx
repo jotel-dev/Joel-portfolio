@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navbar({ isScrolled, toggleMobileMenu }: { isScrolled: boolean; toggleMobileMenu: () => void }) {
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 flex items-center justify-between px-10 py-5 transition-all duration-300 ${isScrolled ? "bg-[#0a0a0f]/90 backdrop-blur-md shadow-lg" : "bg-transparent"}`}>
+    <nav className={`fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 md:px-10 py-4 md:py-5 transition-all duration-300 ${isScrolled ? "bg-[#0a0a0f]/90 backdrop-blur-md shadow-lg" : "bg-transparent"}`}>
       
       <a href="#hero" className="text-white text-2xl font-bold tracking-wider">
         JO<span className="text-blue-500">E</span>L

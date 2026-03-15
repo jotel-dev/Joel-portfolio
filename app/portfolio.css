@@ -612,13 +612,21 @@ footer {
   .services-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
   .about-cards { grid-template-columns: 1fr 1fr; }
+  h1.hero-name { font-size: clamp(3rem, 12vw, 4rem); }
   .hero-stats { flex-wrap: wrap; gap: 1.5rem; justify-content: center; }
-  h2.section-title { font-size: 2.5rem; }
+  .section-inner { padding: 5rem 5vw; }
+  .about-grid { gap: 3rem; }
+  .contact-wrap { gap: 3rem; }
+  h2.section-title { font-size: 2rem; }
   .badge-b1 { display: none; }
   .badge-b2 { right: -5%; }
 }
 @media (max-width: 480px) {
   .about-cards { grid-template-columns: 1fr; }
+  h1.hero-name { font-size: 2.5rem; }
+  .hero-desc { font-size: 0.9rem; }
+  .btn-primary, .btn-outline { padding: 0.8rem 1.5rem; font-size: 0.8rem; }
+  .contact-info h3 { font-size: 1.6rem; }
 }
 
 /* Scrollbar hidden on mobile */
