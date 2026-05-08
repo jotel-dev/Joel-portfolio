@@ -17,7 +17,7 @@ export default function Contact() {
             <p>I&apos;m currently available for freelance work and full-time opportunities. If you think I&apos;d be a good fit for your team, don&apos;t hesitate to reach out.</p>
             <div className="social-links">
               <a href="https://www.linkedin.com/in/ogunmodede-joel-7082842b1" className="social-link" target='_blank'>LinkedIn</a>
-              <a href="https://github.com/jotelfootball-tech" className="social-link" target='_blank'>GitHub</a>
+              <a href="https://github.com/jotel-dev" className="social-link" target='_blank'>GitHub</a>
               <a href="https://x.com/Jotel001" className="social-link" target='_blank'>Twitter</a>
             </div>
           </div>
